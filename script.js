@@ -16,7 +16,9 @@ let validFields = {
 let valid = false;
 
 const enableSubmit = () => {
-    submitButton.disabled = false;
+    const allValid = Object.values(errors).every(value => value === true);
+    if(allValid) submitButton.disabled = false;
+    else submitButton.disabled = true;
 };
 
 emailInput.addEventListener('input', function () {
