@@ -7,11 +7,12 @@ const lastNameError = document.getElementById('last-name-error');
 const submitButton = document.getElementById('submit-button');
 
 let validFields = {
-    firstName: true,
-    lastName: true,
-    email: true,
-    checkBox: true,
+    firstName: false,
+    lastName: false,
+    email: false,
+    checkBox: false,
 }
+
 let valid = false;
 
 const enableSubmit = () => {
