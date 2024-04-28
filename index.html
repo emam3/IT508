@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+</head>
+
+<body>
+    <nav>
+        <a class="nav-page">Home page</a>
+        <a class="nav-page">Images</a>
+        <a class="nav-page">Contact us</a>
+    </nav>
+
+    <section class="login-section">
+
+        <div class="form-container">
+            <h1 id="login-title">Login</h1>
+            <form id="login-form">
+                <input placeholder="Enter your email" type="text" required />
+                <input placeholder="Enter your password" type="password" required />
+                <a href="#" class="Forgot-password-button">Forgot password?</a>
+
+                <button id="login-button">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+
+        <img id="login-sec-img" src="./istockphoto-532570036-1024x1024.jpg" />
+    </section>
+
+    <section class="register-section">
+        <form id="registration-form">
+            <p id="title">Simple registration form</p>
+            <p id="sub-title">Please fill out the form to register</p>
+            <div class="form-field">
+                <label for="first-name">Enter your first Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                <div id="first-name-error" style="color: red"></div>
+            </div>
+            <div class="form-field">
+                <label for="last-name">Enter your last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                <div id="last-name-error" style="color: red"></div>
+            </div>
+            <div class="form-field">
+                <label for="email">Enter your Email</label>
+                <input type="email" id="email" name="email" placeholder="Examble@email.com" required>
+                <div id="email-error" style="color: red"></div>
+            </div>
+            <div class="form-field">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+01236547890" required>
+            </div>
+            <div class="form-field">
+                <label for="hear-about">How did you hear about us?</label>
+                <select id="hear-about" name="hear-about">
+                    <option value="">Select...</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-field checkbox-field" required>
+                <input type="checkbox" id="agree" name="agree">
+                <label for="agree">I agree to the terms and conditions</label>
+            </div>
+            <div class="action-buttons">
+                <button id="submit-button" type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

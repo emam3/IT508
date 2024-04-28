@@ -1,0 +1,145 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  background-color: #7c2ae8;
+  padding: 1rem 0rem;
+  color: #fff;
+}
+
+.login-title {
+  color: #7c2ae8;
+  display: inline-block;
+}
+
+.nav-page:hover {
+  color: rgb(192, 105, 62);
+  cursor: pointer;
+}
+
+.nav-page:visited {
+    color: #fff
+}
+
+.login-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7c2ae8;
+  align-items: center;
+  padding: 50px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form input,
+#login-form button,
+#login-form a {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  width: 30%;
+  background-color: #fff;
+  margin: 20px 0px 0px 20px;
+  border-radius: 10px;
+}
+
+.form-container p,
+.form-container h1 {
+  margin-left: 10px;
+}
+
+#login-button {
+  width: 80% !important;
+  background-color: #7c2ae8;
+  border-color: transparent;
+  border-radius: 5px;
+  align-items: start;
+}
+
+#login-form input {
+  border-color: transparent;
+  border-bottom-color: #000;
+  width: 80%;
+  padding: 20px 0px;
+}
+
+#login-sec-img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+
+.form-container a, a:visited {
+  color: #7c2ae8;
+  text-decoration: none;
+}
+
+/** registration part */
+
+#title {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#sub-title {
+  font-size: 20px;
+}
+
+#registration-form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"], /** Checkbox has to be excluded */
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.action-buttons button {
+  width: 100px;
+  margin-bottom: 5px;
+  background-color: #3598db;
+  color: #000;
+  border-color: transparent;
+  border-radius: 5px;
+}
